@@ -1,6 +1,6 @@
 {
   "name": "ultimate-nsfw",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An easy way to deploy commands with NSFW content to your discord bot.",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,15 @@
   },
   "author": "SrEvelio",
   "license": "MIT",
+  "keywords": [
+    "NSFW",
+    "images",
+    "videos",
+    "gifs",
+    "Discord",
+    "tool",
+    "JavaScript"
+  ],
   "bugs": {
     "url": "https://github.com/SrEvelio/Ultimate-NSFW/issues"
   },
