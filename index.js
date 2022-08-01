@@ -1,116 +1,115 @@
-const agent = require('superagent')
-
+const axios = require('axios').default;
 class NSFW {
 
     static async anal() {
-        const { body } = await agent.get("https://nekobot.xyz/api/image?type=anal");
-        return body.message;
+        let data = await axios.get("https://nekobot.xyz/api/image?type=anal").then(res => res.data);
+        return data.message;
     }
 
     static async ass() {
-        const { body } = await agent.get("https://nekobot.xyz/api/image?type=ass");
-        return body.message;
+        let data = await axios.get("https://nekobot.xyz/api/image?type=ass").then(res => res.data);
+        return data.message;
     }
 
 
     static async boobs() {
-        const { body } = await agent.get("https://nekobot.xyz/api/image?type=boobs");
-        return body.message;
+        let data = await axios.get("https://api.dayabot.ml/img/boobs").then(res => res.data);
+        return data.url;
     }
 
-    static async fourk() {
-        const { body } = await agent.get("https://nekobot.xyz/api/image?type=4k")
-        return body.message;
+    static async fourk() { 
+        let data = await axios.get("https://nekobot.xyz/api/image?type=4k").then(res => res.data);
+        return data.message;
     }
 
     static async gonewild() {
-        const { body } = await agent.get("https://nekobot.xyz/api/image?type=gonewild");
-        return body.message;
+        let data = await axios.get("https://nekobot.xyz/api/image?type=gonewild").then(res => res.data);
+        return data.message;
     }
 
     static async hentaiboobs() {
-        const { body } = await agent.get("https://nekobot.xyz/api/image?type=hboobs");
-        return body.message;
+        let data = await axios.get("https://nekobot.xyz/api/image?type=hboobs").then(res => res.data);
+        return data.message;
     }
 
     static async hentaiass() {
-        const { body } = await agent.get("https://nekobot.xyz/api/image?type=hass");
-        return body.message;
+        let data = await axios.get("https://nekobot.xyz/api/image?type=hass").then(res => res.data);s
+        return data.message;
     }
 
     static async hentaithigh() {
-        const { body } = await agent.get("https://nekobot.xyz/api/image?type=hthigh");
-        return body.message;
+        let data = await axios.get("https://nekobot.xyz/api/image?type=hthigh").then(res => res.data);
+        return data.message;
     }
 
     static async hentai() {
-        const { body } = await agent.get("https://nekobot.xyz/api/image?type=hentai");
-        return body.message;
+        let data = await axios.get("https://nekobot.xyz/api/image?type=hentai").then(res => res.data);
+        return data.message;
     }
 
     static async hmidriff() {
-        const { body } = await agent.get("https://nekobot.xyz/api/image?type=hmidriff");
-        return body.message;
+        let data = await axios.get("https://nekobot.xyz/api/image?type=hmidriff").then(res => res.data);
+        return data.message;
     }
 
     static async hentaithigh() {
-        const { body } = await agent.get("https://nekobot.xyz/api/image?type=hthigh");
-        return body.message;
+        let data = await axios.get("https://nekobot.xyz/api/image?type=hthigh").then(res => res.data);
+        return data.message;
     }
 
     static async kitsune() {
-        const { body } = await agent.get("https://nekos.life/api/v2/img/fox_girl");
-        return body.url;
+        let data = await axios.get("https://nekos.life/api/v2/img/fox_girl").then(res => res.data);
+        return data.url;
     }
 
     static async lewd() {
-        const { body } = await agent.get("https://nekos.life/api/v2/img/lewd");
-        return body.url;
+        let data = await axios.get("https://nekos.life/api/v2/img/lewd").then(res => res.data);
+        return data.url;
     }
 
     static async lewdneko() {
-        const { body } = await agent.get("https://nekobot.xyz/api/image?type=lewdneko");
-        return body.message;
+        let data = await axios.get("https://nekobot.xyz/api/image?type=lewdneko").then(res => res.data);
+        return data.message;
     }
 
     static async neko() {
-        const { body } = await agent.get("https://nekos.life/api/v2/img/neko");
-        return body.url;
+        let data = await axios.get("https://nekos.life/api/v2/img/neko").then(res => res.data);
+        return data.url;
     }
 
     static async nekogif() {
-        const { body } = await agent.get("https://nekos.life/api/v2/img/ngif");
-        return body.url;
+        let data = await axios.get("https://nekos.life/api/v2/img/ngif").then(res => res.data);
+        return data.url;
     }
 
     static async pgif() {
-        const { body } = await agent.get("https://nekobot.xyz/api/image?type=pgif");
-        return body.message;
+        let data = await axios.get("https://nekobot.xyz/api/image?type=pgif").then(res => res.data);
+        return data.message;
     }
 
     static async pussy() {
-        const { body } = await agent.get("https://nekobot.xyz/api/image?type=pussy");
-        return body.message;
+        let data = await axios.get("https://api.dayabot.ml/img/pussy").then(res => res.data);
+        return data.url;
     }
 
     static async solo() {
-        const { body } = await agent.get("https://nekos.life/api/v2/img/solo");
-        return body.url;
+        let data = await axios.get("https://nekos.life/api/v2/img/solo").then(res => res.data);
+        return data.url;
     }
 
     static async thigh() {
-        const { body } = await agent.get("https://nekobot.xyz/api/image?type=thigh");
-        return body.message;
+        let data = await axios.get("https://nekobot.xyz/api/image?type=thigh").then(res => res.data);
+        return data.message;
     }
 
     static async waifu() {
-        const { body } = await agent.get("https://nekos.life/api/v2/img/waifu");
-        return body.url;
+        let data = await axios.get("https://nekos.life/api/v2/img/waifu").then(res => res.data);
+        return data.url;
     }
 
     static async wallpaper() {
-        const { body } = await agent.get("https://nekos.life/api/v2/img/wallpaper");
-        return body.url;
+        let data = await axios.get("https://nekos.life/api/v2/img/wallpaper").then(res => res.data);
+        return data.url;
     }
     
 }

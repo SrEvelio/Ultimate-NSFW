@@ -1,6 +1,6 @@
 {
   "name": "ultimate-nsfw",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "An easy way to deploy commands with NSFW content to your discord bot.",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/SrEvelio/Ultimate-NSFW#readme",
   "dependencies": {
-    "superagent": "^8.0.0"
+    "axios": "^0.27.2"
   }
 }
