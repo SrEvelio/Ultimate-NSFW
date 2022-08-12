@@ -12,7 +12,8 @@ npm install ultimate-nsfw
 #### Usage
 
 ```js
-const nsfw = require('ultimate-nsfw')
+const UltimateNSFW = require('ultimate-nsfw');
+const nsfw = new UltimateNSFW();
 let image = await nsfw.<Method>()
 ```
 
@@ -20,8 +21,10 @@ let image = await nsfw.<Method>()
 #### Discord.js Usage
 
 ```js
-const nsfw = require('ultimate-nsfw');
 const { EmbedBuilder } = require('discord.js');
+
+const UltimateNSFW = require('ultimate-nsfw');
+const nsfw = new UltimateNSFW();
 
 let image = await nsfw.pussy();
 
@@ -30,7 +33,7 @@ let embed = new EmbedBuilder()
     .setImage(image)
     .setColor('#ff0000')
 
-message.channel.send({ embeds: [embed] });
+return message.reply({ embeds: [embed] });
 ```
 #
 
