@@ -14,6 +14,7 @@ npm install ultimate-nsfw
 ```js
 const UltimateNSFW = require('ultimate-nsfw');
 const nsfw = new UltimateNSFW();
+
 let image = await nsfw.<Method>()
 ```
 
