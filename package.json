@@ -1,7 +1,7 @@
 {
   "name": "ultimate-nsfw",
-  "version": "1.0.4",
-  "description": "An easy way to deploy commands with NSFW content to your discord bot.",
+  "version": "1.0.5",
+  "description": "A very easy way to create NSFW commands for your Discord.js bot.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SrEvelio/Ultimate-NSFW.git"
+  },
+  "engines": {
+    "node": ">=10.0.0"
   },
   "author": "SrEvelio",
   "license": "MIT",
