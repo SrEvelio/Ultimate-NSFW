@@ -1,4 +1,5 @@
 const axios = require('axios').default;
+
 class NSFW {
     constructor() {
         this.categories = [

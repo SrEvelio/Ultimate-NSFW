@@ -1,1 +1,1 @@
-module.exports = require("./src/Ultimate.js")
+module.exports = require("./src/Ultimate")
