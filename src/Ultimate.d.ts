@@ -1,6 +1,6 @@
 export declare class NSFW {
     version: any
-    methods: string[]
+    categories: string[]
     constructor()
     anal(): Promise<any>
     ass(): Promise<any>

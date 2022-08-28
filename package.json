@@ -1,6 +1,6 @@
 {
   "name": "ultimate-nsfw",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A very easy way to create NSFW commands for your Discord.js bot.",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,8 @@
     "gifs",
     "Discord",
     "tool",
-    "JavaScript"
+    "JavaScript",
+    "UltimateNSFW"
   ],
   "bugs": {
     "url": "https://github.com/SrEvelio/Ultimate-NSFW/issues"
