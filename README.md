@@ -38,26 +38,51 @@ return message.reply({ embeds: [embed] });
 ```
 #
 
-#### Methods
+#### Methods / Categories 
 
-- Anal (anal)
-- Ass (ass)
-- Boobs (boobs)
-- 4k (fourk)
-- Gonewild (gonewild)
-- Hentai (hentai)
-- Hentai Boobs (hentaiboobs)
-- Hentai Ass (hentaiass)
-- Hentai Thigh (hentaithigh)
-- Hmidriff (hmidriff)
-- Kitsune (kitsune)
-- Lewd (lewd)
-- Lewd Neko (lewdneko)
-- Neko (neko)
-- Neko Gif (nekogif)
-- Porn Gif (pgif)
-- Pussy (pussy)
-- Solo (solo)
-- Thigh (thigh)
-- Waifu (waifu)
-- Wallpaper (wallpaper)
+- **Anal (anal)**
+- **Ass (ass)** 
+- **Boobs (boobs)** 
+- **Doujin (doujin)** 
+- **Ero (ero)**
+- **Ecchi (ecchi)** 
+- **Feet (feet)**
+- **Female Domination (femdom)** 
+- **4k (fourk)** 
+- **Gonewild (gonewild)** 
+- **Glasses (glasses)** 
+- **Hentai (hentai)**
+- **Hentai Boobs (hentaiboobs)** 
+- **Hentai Ass (hentaiass)**
+- **Hentai Thigh (hentaithigh)** 
+- **Hmidriff (hmidriff)**
+- **Kitsune (kitsune)**
+- **Lewd (lewd)** 
+- **Lewd Neko (lewdneko)** 
+- **Milf (milf)** 
+- **Maid (maid)** 
+- **Neko (neko)** 
+- **Netorare (netorare)** 
+- **Neko Gif (nekogif)** 
+- **Paizuri (paizuri)** 
+- **Panties (panties)**
+- **Porn Gif (pgif)** 
+- **Random Gifs (rhgif)**
+- **Pussy (pussy)**
+- **Succubus (succubus)** 
+- **Solo (solo)** 
+- **School (school)**  
+- **Tentacles (tentacles)**
+- **Thigh (thigh)** 
+- **Waifu (waifu)**  
+- **Wallpaper (wallpaper)**
+- **Yuri (yuri)** 
+
+#
+
+#### APIs used in the package
+- [Akaneko](https://akaneko-api.herokuapp.com/)
+- [Nekobot](https://nekobot.xyz/)
+- [Nekos.life](https://nekos.life/)
+- [Waifu Pics](https://waifu.pics/)
+- [Waifu Im](https://waifu.im/)

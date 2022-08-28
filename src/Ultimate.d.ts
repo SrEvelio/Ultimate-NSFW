@@ -5,8 +5,14 @@ export declare class NSFW {
     anal(): Promise<any>
     ass(): Promise<any>
     boobs(): Promise<any>
+    doujin(): Promise<any>
+    ero(): Promise<any>
+    ecchi(): Promise<any>
+    feet(): Promise<any>
+    femdom(): Promise<any>
     fourk(): Promise<any>
     gonewild(): Promise<any>
+    glasses(): Promise<any>
     hentaiboobs(): Promise<any>
     hentaiass(): Promise<any>
     hentaithigh(): Promise<any>
@@ -15,12 +21,22 @@ export declare class NSFW {
     kitsune(): Promise<any>
     lewd(): Promise<any>
     lewdneko(): Promise<any>
+    milf(): Promise<any>
+    maid(): Promise<any>
     neko(): Promise<any>
+    netorare(): Promise<any>
     nekogif(): Promise<any>
+    paizuri(): Promise<any>
+    panties(): Promise<any>
     pgif(): Promise<any>
+    rhgif(): Promise<any>
     pussy(): Promise<any>
+    succubus(): Promise<any>
     solo(): Promise<any>
+    school(): Promise<any>
     thigh(): Promise<any>
+    tentacles(): Promise<any>
     waifu(): Promise<any>
     wallpaper(): Promise<any>
+    yuri(): Promise<any>
 }
