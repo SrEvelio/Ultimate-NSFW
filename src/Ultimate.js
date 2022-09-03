@@ -53,7 +53,7 @@ class NSFW {
 
 
     async boobs() {
-        let data = await axios.get("https://api.dayabot.ml/img/boobs").then(res => res.data).catch((e) => { return console.error(e) });
+        let data = await axios.get("https://www.dayabot.ml/api/nsfw/boobs").then(res => res.data).catch((e) => { return console.error(e) });
         return data.url;
     }
 
@@ -177,7 +177,7 @@ class NSFW {
     }
 
     async pussy() {
-        let data = await axios.get("https://api.dayabot.ml/img/pussy").then(res => res.data).catch((e) => { return console.error(e) });
+        let data = await axios.get("https://www.dayabot.ml/api/nsfw/pussy").then(res => res.data).catch((e) => { return console.error(e) });
         return data.url;
     }
 
