@@ -1,4 +1,4 @@
-export declare class NSFW {
+declare class NSFW {
     version: any
     categories: string[]
     constructor()

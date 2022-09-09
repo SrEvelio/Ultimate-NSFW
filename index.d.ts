@@ -1,1 +1,1 @@
-declare module 'UltimateNSFW';
+declare module 'UltimateNsfw';
