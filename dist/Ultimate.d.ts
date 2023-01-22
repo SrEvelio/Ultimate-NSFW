@@ -1,0 +1,37 @@
+export declare class Ultimate {
+    anal(): Promise<any>;
+    ass(): Promise<any>;
+    boobs(): Promise<any>;
+    doujin(): Promise<any>;
+    ero(): Promise<any>;
+    ecchi(): Promise<any>;
+    feet(): Promise<any>;
+    fourk(): Promise<any>;
+    gonewild(): Promise<any>;
+    glasses(): Promise<any>;
+    hentaiboobs(): Promise<any>;
+    hentaiass(): Promise<any>;
+    hentaithigh(): Promise<any>;
+    hentai(): Promise<any>;
+    hmidriff(): Promise<any>;
+    kitsune(): Promise<any>;
+    lewd(): Promise<any>;
+    lewdneko(): Promise<any>;
+    milf(): Promise<any>;
+    maid(): Promise<any>;
+    neko(): Promise<any>;
+    netorare(): Promise<any>;
+    nekogif(): Promise<any>;
+    panties(): Promise<any>;
+    paizuri(): Promise<any>;
+    pgif(): Promise<any>;
+    rhgif(): Promise<any>;
+    pussy(): Promise<any>;
+    succubus(): Promise<any>;
+    solo(): Promise<any>;
+    school(): Promise<any>;
+    thigh(): Promise<any>;
+    waifu(): Promise<any>;
+    wallpaper(): Promise<any>;
+    yuri(): Promise<any>;
+}
