@@ -41,7 +41,7 @@ class Ultimate {
     }
     doujin() {
         return __awaiter(this, void 0, void 0, function* () {
-            let data = yield axios_1.default.get("https://akaneko-api.herokuapp.com/api/doujin").then(res => res.data).catch(console.error);
+            let data = yield axios_1.default.get("https://cuteasfubuki.cf/api/doujin").then(res => res.data).catch(console.error);
             if (!data)
                 data = { url: "https://cdn.discordapp.com/attachments/1002605769872646164/1017880037258698862/Error-404.jpg" };
             return data.url;
@@ -65,7 +65,7 @@ class Ultimate {
     }
     feet() {
         return __awaiter(this, void 0, void 0, function* () {
-            let data = yield axios_1.default.get("https://akaneko-api.herokuapp.com/api/feet").then(res => res.data).catch(console.error);
+            let data = yield axios_1.default.get("https://cuteasfubuki.cf/api/feet").then(res => res.data).catch(console.error);
             if (!data)
                 data = { url: "https://cdn.discordapp.com/attachments/1002605769872646164/1017880037258698862/Error-404.jpg" };
             return data.url;
@@ -89,7 +89,7 @@ class Ultimate {
     }
     glasses() {
         return __awaiter(this, void 0, void 0, function* () {
-            let data = yield axios_1.default.get("https://akaneko-api.herokuapp.com/api/glasses").then(res => res.data).catch(console.error);
+            let data = yield axios_1.default.get("https://cuteasfubuki.cf/api/glasses").then(res => res.data).catch(console.error);
             if (!data)
                 data = { url: "https://cdn.discordapp.com/attachments/1002605769872646164/1017880037258698862/Error-404.jpg" };
             return data.url;
@@ -169,7 +169,7 @@ class Ultimate {
     }
     maid() {
         return __awaiter(this, void 0, void 0, function* () {
-            let data = yield axios_1.default.get("https://akaneko-api.herokuapp.com/api/maid").then(res => res.data).catch(console.error);
+            let data = yield axios_1.default.get("https://cuteasfubuki.cf/api/maid").then(res => res.data).catch(console.error);
             if (!data)
                 data = { url: "https://cdn.discordapp.com/attachments/1002605769872646164/1017880037258698862/Error-404.jpg" };
             return data.url;
@@ -185,7 +185,7 @@ class Ultimate {
     }
     netorare() {
         return __awaiter(this, void 0, void 0, function* () {
-            let data = yield axios_1.default.get("https://akaneko-api.herokuapp.com/api/netorare").then(res => res.data).catch(console.error);
+            let data = yield axios_1.default.get("https://cuteasfubuki.cf/api/netorare").then(res => res.data).catch(console.error);
             if (!data)
                 data = { url: "https://cdn.discordapp.com/attachments/1002605769872646164/1017880037258698862/Error-404.jpg" };
             return data.url;
@@ -201,7 +201,7 @@ class Ultimate {
     }
     panties() {
         return __awaiter(this, void 0, void 0, function* () {
-            let data = yield axios_1.default.get("https://akaneko-api.herokuapp.com/api/panties").then(res => res.data).catch(console.error);
+            let data = yield axios_1.default.get("https://cuteasfubuki.cf/api/panties").then(res => res.data).catch(console.error);
             if (!data)
                 data = { url: "https://cdn.discordapp.com/attachments/1002605769872646164/1017880037258698862/Error-404.jpg" };
             return data.url;
@@ -225,7 +225,7 @@ class Ultimate {
     }
     rhgif() {
         return __awaiter(this, void 0, void 0, function* () {
-            let data = yield axios_1.default.get("https://akaneko-api.herokuapp.com/api/gif").then(res => res.data).catch(console.error);
+            let data = yield axios_1.default.get("https://cuteasfubuki.cf/api/gif").then(res => res.data).catch(console.error);
             if (!data)
                 data = { url: "https://cdn.discordapp.com/attachments/1002605769872646164/1017880037258698862/Error-404.jpg" };
             return data.url;
@@ -241,7 +241,7 @@ class Ultimate {
     }
     succubus() {
         return __awaiter(this, void 0, void 0, function* () {
-            let data = yield axios_1.default.get("https://akaneko-api.herokuapp.com/api/succubus").then(res => res.data).catch(console.error);
+            let data = yield axios_1.default.get("https://cuteasfubuki.cf/api/succubus").then(res => res.data).catch(console.error);
             if (!data)
                 data = { url: "https://cdn.discordapp.com/attachments/1002605769872646164/1017880037258698862/Error-404.jpg" };
             return data.url;
@@ -257,7 +257,7 @@ class Ultimate {
     }
     school() {
         return __awaiter(this, void 0, void 0, function* () {
-            let data = yield axios_1.default.get("https://akaneko-api.herokuapp.com/api/school").then(res => res.data).catch(console.error);
+            let data = yield axios_1.default.get("https://cuteasfubuki.cf/api/school").then(res => res.data).catch(console.error);
             if (!data)
                 data = { url: "https://cdn.discordapp.com/attachments/1002605769872646164/1017880037258698862/Error-404.jpg" };
             return data.url;
@@ -289,7 +289,7 @@ class Ultimate {
     }
     yuri() {
         return __awaiter(this, void 0, void 0, function* () {
-            let data = yield axios_1.default.get("https://akaneko-api.herokuapp.com/api/yuri").then(res => res.data).catch(console.error);
+            let data = yield axios_1.default.get("https://cuteasfubuki.cf/api/yuri").then(res => res.data).catch(console.error);
             if (!data)
                 data = { url: "https://cdn.discordapp.com/attachments/1002605769872646164/1017880037258698862/Error-404.jpg" };
             return data.url;

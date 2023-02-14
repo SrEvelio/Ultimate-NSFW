@@ -81,7 +81,7 @@ return message.reply({ embeds: [embed] });
 #
 
 #### APIs used in the package
-- [Akaneko](https://akaneko-api.herokuapp.com/)
+- [Akaneko](https://cuteasfubuki.cf/)
 - [Nekobot](https://nekobot.xyz/)
 - [Nekos.life](https://nekos.life/)
 - [Waifu Pics](https://waifu.pics/)
