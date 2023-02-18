@@ -33,7 +33,7 @@ class Ultimate {
     }
     boobs() {
         return __awaiter(this, void 0, void 0, function* () {
-            let data = yield axios_1.default.get('https://dayabot.ml/api/nsfw/boobs').then(x => x.data);
+            let data = yield axios_1.default.get('https://nekobot.xyz/api/image?type=boobs').then(x => x.data);
             if (!data)
                 data = { url: "https://cdn.discordapp.com/attachments/1002605769872646164/1017880037258698862/Error-404.jpg" };
             return data.url;
@@ -233,7 +233,7 @@ class Ultimate {
     }
     pussy() {
         return __awaiter(this, void 0, void 0, function* () {
-            let data = yield axios_1.default.get("https://dayabot.ml/api/nsfw/pussy").then(res => res.data).catch(console.error);
+            let data = yield axios_1.default.get("https://nekobot.xyz/api/image?type=pussy").then(res => res.data).catch(console.error);
             if (!data)
                 data = { url: "https://cdn.discordapp.com/attachments/1002605769872646164/1017880037258698862/Error-404.jpg" };
             return data.url;
