@@ -1,0 +1,49 @@
+{
+  "name": "ultimate-nsfw",
+  "version": "2.0.0",
+  "description": "A very easy way to create NSFW commands for your Discord.js bot.",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/types/index.d.ts",
+  "files": [
+    "lib/cjs",
+    "lib/esm",
+    "lib/types"
+  ],
+  "scripts": {
+    "lint": "eslint 'src/**/*.{ts,js}'",
+    "format": "prettier --write 'src/**/*.{ts,js}'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.esm.json && tsc -p tsconfig.cjs.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SrEvelio/Ultimate-NSFW.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "SrEvelio",
+  "license": "MIT",
+  "keywords": [
+    "18+",
+    "NSFW",
+    "images",
+    "videos",
+    "gifs",
+    "Discord",
+    "tool"
+  ],
+  "bugs": {
+    "url": "https://github.com/SrEvelio/Ultimate-NSFW/issues"
+  },
+  "homepage": "https://github.com/SrEvelio/Ultimate-NSFW#readme",
+  "dependencies": {
+    "axios": "^1.7.7"
+  },
+  "devDependencies": {
+    "eslint": "^9.10.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2"
+  }
+}
