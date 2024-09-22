@@ -1,6 +1,6 @@
 {
   "name": "ultimate-nsfw",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "A very easy way to create NSFW commands for your Discord.js bot.",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",

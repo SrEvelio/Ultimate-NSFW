@@ -65,18 +65,25 @@ const apiMap: { [key: string]: string } = {
   gah: `${nekoapi}?type=gah`,
 };
 
+interface FetchResponse {
+  success: boolean;
+  url: string;
+}
+
+type Category = keyof typeof apiMap;
+
 class Ultimate {
-  async fetch (category: keyof typeof apiMap): Promise<object> {
+  async fetch(category: Category): Promise<FetchResponse> {
     const apiUrl = apiMap[category];
 
     if (!apiUrl) {
-      throw new Error(`Category "${category}" no exists`);
+      throw new Error(`Category "${category}" does not exist`);
     }
 
     try {
       const response = await fetcher(apiUrl);
       return {
-        success: response.success || true,
+        success: response.success !== undefined ? response.success : true,
         url: response.message || response.url || response.images[0].url,
       };
     } catch (error) {
